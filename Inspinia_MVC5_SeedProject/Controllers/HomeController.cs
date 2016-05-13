@@ -10,8 +10,8 @@ namespace TFG.WebClient.Controllers
     {
         public ActionResult Index()
         {
-            ViewData["SubTitle"] = "Welcome in ASP.NET MVC 5 INSPINIA SeedProject ";
-            ViewData["Message"] = "It is an application skeleton for a typical MVC 5 project. You can use it to quickly bootstrap your webapp projects.";
+            ViewData["SubTitle"] = "Bienvenido al Sistema de Control de Combustible  ";
+            ViewData["Message"] = "Esto es el comiezo del Proyecto Fin de Grado de Gabriel Julián en UNIR.";
 
             return View();
         }
