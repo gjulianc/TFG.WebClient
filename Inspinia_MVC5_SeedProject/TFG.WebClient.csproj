@@ -473,6 +473,13 @@
     <Content Include="Views\Usuarios\Editar.cshtml" />
     <Content Include="Views\Usuarios\Insertar.cshtml" />
     <Content Include="Views\Usuarios\Eliminar.cshtml" />
+    <Content Include="Views\Vehiculos\Editar.cshtml" />
+    <Content Include="Views\Vehiculos\Insertar.cshtml" />
+    <Content Include="Views\Vehiculos\Eliminar.cshtml" />
+    <Content Include="Views\Bases\Editar.cshtml" />
+    <Content Include="Views\Bases\Insertar.cshtml" />
+    <Content Include="Views\Bases\Eliminar.cshtml" />
+    <Content Include="Views\Transacciones\Insertar.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Scripts\plugins\metisMenu\" />

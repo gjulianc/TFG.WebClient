@@ -1,0 +1,35 @@
+﻿@using EFCore;
+@model Base
+
+@{
+    ViewBag.Title = "Eliminar";
+}
+
+<div class="wrapper wrapper-content animated fadeInRight">
+    <div class="row">
+        <div class="col-lg-12">
+            <div class="text-center m-t-lg">
+                <h1>
+                    ¿Seguro que desea eliminar la Base con ID @Model.Base_Id ?
+                </h1>
+                <p></p>
+                <p></p>
+                <p></p>
+                @using (Html.BeginForm())
+                {
+                    <div>
+                        <input class="btn btn-primary" type="submit" value="Eliminar" /> |
+                        @Html.ActionLink("Volver", "Index", null, new { @class = "btn btn-white" })
+                    </div>
+
+
+                }
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
